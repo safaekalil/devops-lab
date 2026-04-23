@@ -15,7 +15,6 @@ spec:
       containers:
         - name: webapp
           image: webapp:latest
-          image: tonuser/webapp:latest
-          imagePullPolicy: Always
+          imagePullPolicy: Never
           ports:
             - containerPort: 5000
